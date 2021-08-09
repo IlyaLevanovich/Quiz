@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 1636
+  controlID: 574
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 1637
+  controlID: 548
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 1612
+  controlID: 549
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 18f4ffff62fbffffdc390000
+      m_ExpandedIDs: 62fbffffd2390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -313,9 +313,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.948262, y: -11.198639, z: 6.1781945}
+    m_Target: {x: 3.5059338, y: -2.3014593, z: 18.84969}
     speed: 2
-    m_Value: {x: -9.948262, y: -11.198639, z: 6.1781945}
+    m_Value: {x: 3.5059338, y: -2.3014593, z: 18.84969}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,13 +361,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.31878287, y: 0.4788786, z: -0.19199798, w: -0.7951049}
+    m_Target: {x: -0.13043587, y: 0.00505355, z: -0.00066434784, w: -0.99144655}
     speed: 2
-    m_Value: {x: -0.31878254, y: 0.47887808, z: -0.19199777, w: -0.7951041}
+    m_Value: {x: -0.1304355, y: 0.0050535356, z: -0.0006643459, w: -0.9914437}
   m_Size:
-    m_Target: 10
+    m_Target: 15.999884
     speed: 2
-    m_Value: 10
+    m_Value: 15.999884
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -547,19 +547,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Projects\Quiz\Quiz
+  m_LastProjectPath: E:\Projects\Quiz
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 38.927372}
-    m_SelectedIDs: f63a0000
-    m_LastClickedID: 15094
+    m_SelectedIDs: e63a0000
+    m_LastClickedID: 15078
     m_ExpandedIDs: 00000000e63a0000e83a0000ea3a0000ec3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009e35000058350000f24100008a410000e6410000f6410000000000006e52000036dfffff287d0000ec4200008c400000d8480000963900005ec00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

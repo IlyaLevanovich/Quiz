@@ -7,16 +7,15 @@ public class Cell : MonoBehaviour
     [SerializeField] private SpriteRenderer _contentRenderer;
     [SerializeField] private Object _particles;
     private ParentForCells _parent;
-    private AvailableResources _availableSprite;
     private LevelSwitch _level;
     private LevelTask _levelTask;
     public string SpriteName => _spriteName;
     private string _spriteName;
     
 
-    public void SetSprite()
+    public void SetSprite(AvailableResources resources)
     {
-        _contentRenderer.sprite = _availableSprite.GetSprite();
+        _contentRenderer.sprite = resources.GetSprite();
         _spriteName = _contentRenderer.sprite.name;
     }
     private void Awake()
@@ -24,7 +23,6 @@ public class Cell : MonoBehaviour
         _parent = FindObjectOfType<ParentForCells>();
         transform.SetParent(_parent.transform);
 
-        _availableSprite = FindObjectOfType<AvailableResources>();
         _levelTask = FindObjectOfType<LevelTask>();
     }
 

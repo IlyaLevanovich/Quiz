@@ -942,6 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelTask: {fileID: 1156847795}
+  _resources: {fileID: 1976873936}
 --- !u!4 &1950959175
 Transform:
   m_ObjectHideFlags: 0

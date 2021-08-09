@@ -4,6 +4,7 @@ using UnityEngine;
 public class ParentForCells : MonoBehaviour
 {
     [SerializeField] private LevelTask _levelTask;
+    [SerializeField] private AvailableResources _resources;
     private List<Cell> _childObjects;
     public List<Cell> ChildObjects => _childObjects;
     private float _factorRation = 0.5f;
@@ -30,7 +31,7 @@ public class ParentForCells : MonoBehaviour
     public void ReplaceChildrenSprites()
     {
         foreach (var child in _childObjects)
-            child.SetSprite();
+            child.SetSprite(_resources);
     }
     
     public void ResetData()
