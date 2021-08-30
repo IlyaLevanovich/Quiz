@@ -21,4 +21,5 @@ public class AvailableResources : MonoBehaviour
         int random = Random.Range(0, _availableSprite.Count);
         return random;
     }
+
 }
