@@ -39,7 +39,7 @@ public class Cell : MonoBehaviour
         if(_spriteName == _levelTask.CorrectElement)
         {
             Shake(_contentRenderer.transform, 0.5f, new Vector3(0, 0.5f, 0), 3);
-            _contentRenderer.transform.DOScale(new Vector3(1.5f, 1.5f, 0), 1f);
+            _contentRenderer.transform.DOScale(new Vector3(1.5f, 1.5f, 0f), 1f);
             Instantiate(_particles, new Vector3(position.x, position.y, -1), Quaternion.identity);
 
             await Task.Delay(1500);
